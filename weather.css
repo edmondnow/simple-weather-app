@@ -1,0 +1,171 @@
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Arhivo Black", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1.6em;
+	margin-bottom: 0px;
+}
+
+#degrees {
+	letter-spacing: initial;
+	font-size: 2em;
+	word-spacing: 1px;
+	font-family: "Arhivo Black", sans-serif;
+	text-align: center;
+	margin-top: 5%;
+
+
+}
+
+
+
+#image {
+ display: inline;
+ width: 18%;
+ margin-top: 5px;
+ float: left;
+ position: relative;
+ left: 20px;
+ float: center
+}
+
+
+.background-div {
+
+	background-image: url("https://preview.ibb.co/ePw9cm/gradient.jpg"); 
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height: 100%;
+	font-size: 1.2em;
+	margin: 0px;
+	color: #27A6D1;
+}
+
+.pic-container {
+	max-width: 60%;
+	float: right;
+}
+
+#weather-pic {
+	max-width: 100%;
+	float: right;
+	box-shadow: 0.1px 0.3px 3px 0.2px #000;
+}
+
+.container-location {
+	background-color: #EEF5F9;
+	float: left;
+	width: 100%;
+	max-width: 150px;
+	height: 200%;
+}
+
+.container {
+	
+	min-width: 200px;
+	min-height: 205px;
+	max-width: 400px;
+	max-height: 196px;
+	border: 1px inset rgba(0,0,165,0.3);
+	margin: auto;
+	position: relative;
+	padding: 0;
+	top: 20%;
+	background-color: #D6E6F6;
+}
+
+.wrapper {
+	margin: 0;
+	display: inline;
+}
+.wrapper-2 {
+	margin: 0 auto;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+#desc {
+	text-align: center;
+}
+.container-data {
+	width: 30px;	
+	border: 3px solid black;
+
+}
+
+
+
+
+.button {
+	border: none;
+	background-color: transparent;
+	font-family: "Arhivo Black", sans-serif;
+	color: #27A6D1;
+	font-size: 1.5em;
+  margin: 0 auto;
+  width: 110px;
+}
+
+
+.button:hover {
+  background-color: rgba(180,180,180, 0.3);
+}
+.button:active {
+	outline: 1px solid #27A6D1;
+	border: none;
+}
+
+#compass {
+	display: block;
+	margin: 10px auto;
+	margin-top: 10%;
+	width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        	max-height: 400px;
+    }
+
+    .container-location {
+	float: initial;
+	width: 100%;
+		max-width: 400px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+ 	#compass {
+ 
+ 		display: block;
+ 				margin: 0 auto;
+    color: white;
+ 	}
+
+ 	.background-div {
+
+	background-image: none;
+	background-color:#D6E6F6;
+	height: 100%;
+	font-size: 1.2em;
+	margin: 0px;
+	color: #27A6D1;
+	}
+
+	.wrapper-2 {
+		margin: 0 auto;
+			background-color:#D6E6F6;
+			width: 100%;
+	}
+
+	.button {
+		margin: 20px;
+	}
+}
